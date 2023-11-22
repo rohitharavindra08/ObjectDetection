@@ -61,11 +61,11 @@ def construct_homogeneous_matrix(angles, vectors):
 
     return h_matrices
 
-model = YOLO('/Users/komalb/PycharmProjects/pythonProject2/runs/detect/train8/weights/best.pt')
+model = YOLO('/Users/rohitharavindra/PycharmProjects/pythonProject2/runs/detect/train8/weights/best.pt')
 confidence_threshold = 0.51
 
 
-video_path = '/Users/komalb/Downloads/cups_folder/cup_in_motion.mp4'
+video_path = '/Users/rohitharavindra/Downloads/cups_folder/cup_in_motion.mp4'
 cap = cv2.VideoCapture(video_path)
 
 bboxes = []
